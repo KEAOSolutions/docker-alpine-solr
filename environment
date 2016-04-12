@@ -1,0 +1,6 @@
+REPO_WORKING_DIR=/usr/src/GIT/docker-images/docker-alpine-solr
+DOCKER_USER=ukhomeoffice
+DOCKER_OPENJRE=${DOCKER_USER}/openjre8:latest
+SOLR_VERSION=6.0.0
+SOLR_DOWNLOAD_URL=http://www.mirrorservice.org/sites/ftp.apache.org/lucene/solr/${SOLR_VERSION}/solr-${SOLR_VERSION}.tgz
+
